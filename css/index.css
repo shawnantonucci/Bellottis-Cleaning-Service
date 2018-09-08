@@ -132,6 +132,13 @@ table {
 html {
   font-size: 62.5%;
 }
+body {
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -146,4 +153,39 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 400px;
+  background-image: url("/img/blue-sky.jpeg");
+  background-size: 100% 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  max-width: 100%;
+  height: 40px;
+}
+header img {
+  margin-left: 5%;
+  width: 200px;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+}
+header nav a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration-line: none;
+  color: black;
+  width: 100%;
+  padding-right: 30%;
 }
