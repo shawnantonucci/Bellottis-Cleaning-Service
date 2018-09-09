@@ -13,12 +13,13 @@
 }
 
 .container {
-  height: 1000px;
+  height: auto;
 
   .bg-main {
     margin-top: 40px;
     background-color: rgb(231, 229, 229);
-    //border: 2px solid black;
+    border: 2px solid black;
+    margin-bottom: 45px;
   }
 
   .services {
@@ -32,6 +33,7 @@
       margin-right: 2%;
       font-size: 4rem;
       font-weight: bold;
+      text-decoration-line: underline;
     }
   }
 
@@ -40,7 +42,6 @@
     height: auto;
     text-decoration-line: underline;
     padding: 3%;
-    //border: 1.5px solid black;
 
     .img-services {
       display: flex;
@@ -83,13 +84,20 @@
   }
 }
 
+.ny-img {
+  display: flex;
+  width: 100%;
+  height: 900px;
+}
+
 footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  
+  padding: 40px 0 40px 0;
 
   p {
+    font-size: 2rem;
     margin-right: 2%;
     color: white;
   }
