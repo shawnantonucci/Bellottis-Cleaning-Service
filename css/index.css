@@ -224,7 +224,7 @@ header nav a {
   text-decoration-line: none;
   color: black;
   width: 100%;
-  padding-right: 25%;
+  margin-right: 25%;
   white-space: nowrap;
 }
 header nav a:hover {
