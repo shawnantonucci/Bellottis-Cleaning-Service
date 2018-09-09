@@ -202,6 +202,16 @@ p {
   text-decoration-line: underline;
   font-weight: 500;
 }
+.container .services-grid ul {
+  display: flex;
+  padding: 20%;
+  align-items: center;
+  flex-direction: column;
+}
+.container .services-grid ul li {
+  margin: 5%;
+  list-style: square;
+}
 header {
   display: flex;
   justify-content: space-between;
