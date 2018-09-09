@@ -142,6 +142,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  background-color: #e7e5e5;
 }
 h1 {
   font-size: 6.5rem;
@@ -178,66 +179,103 @@ p {
   background-position: center;
 }
 .container {
-  border: 1px solid red;
   height: 1000px;
+}
+.container .bg-main {
+  margin-top: 40px;
+  background-color: #e7e5e5;
+  border: 2px solid black;
 }
 .container .services {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
   padding-bottom: 30px;
-  width: 75%;
-  margin-left: 13%;
-  border-bottom: 2px solid black;
+  width: 100%;
 }
 .container .services h2 {
+  font-size: 4rem;
   font-weight: bold;
 }
 .container .services-grid {
   display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-  height: 300px;
-  border: 1px solid black;
+  height: auto;
   text-decoration-line: underline;
-  font-weight: 500;
+  padding: 3%;
+}
+.container .services-grid .img-services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-right: 5%;
+}
+.container .services-grid .img-services h3 {
+  margin: 20px;
+}
+.container .services-grid img {
+  border: 2px solid black;
+  width: 100%;
+  height: auto;
+}
+.container .services-grid h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
 }
 .container .services-grid ul {
   display: flex;
-  padding: 20%;
   align-items: center;
   flex-direction: column;
 }
 .container .services-grid ul li {
-  margin: 5%;
-  list-style: square;
+  margin: 1%;
+  font-size: 1.8rem;
+  text-decoration-line: underline;
 }
-header {
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  margin-right: 2%;
+  color: white;
+}
+header,
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #000000;
   max-width: 100%;
-  height: 40px;
+  height: 60px;
 }
-header img {
+header img,
+footer img {
   margin-left: 5%;
   width: 200px;
   height: auto;
+  color: white;
 }
-header nav {
+header nav,
+footer nav {
   display: flex;
   justify-content: center;
   margin-right: 5%;
 }
-header nav a {
+header nav a,
+footer nav a {
   font-weight: bold;
+  font-size: 2rem;
   text-decoration-line: none;
-  color: black;
+  color: white;
   width: 100%;
   margin-right: 25%;
   white-space: nowrap;
 }
-header nav a:hover {
-  color: blue;
+header nav a:hover,
+footer nav a:hover {
+  color: #ff0000;
 }
