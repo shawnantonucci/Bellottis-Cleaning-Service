@@ -142,7 +142,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-  background-color: #e7e5e5;
+  background-color: #E8E7E5;
 }
 @media (max-width: 500px) {
   body {
@@ -199,7 +199,7 @@ p {
 }
 .container .bg-main {
   margin-top: 40px;
-  background-color: #e7e5e5;
+  background-color: #E8E7E5;
   margin-bottom: 45px;
 }
 @media (max-width: 500px) {
@@ -213,6 +213,11 @@ p {
   margin-top: 20px;
   padding-bottom: 30px;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .container #services {
+    padding-bottom: 0px;
+  }
 }
 .container #services h2 {
   margin-right: 2%;
@@ -254,7 +259,9 @@ p {
 }
 @media (max-width: 500px) {
   .container .services-grid .img-services {
-    padding-right: 3;
+    margin-top: 40px;
+    padding-right: 0;
+    margin-bottom: 31px;
   }
 }
 .container .services-grid img {
@@ -264,7 +271,6 @@ p {
 }
 @media (max-width: 500px) {
   .container .services-grid img {
-    padding: 5%;
     border: none;
     padding-right: 0px;
   }
@@ -284,6 +290,7 @@ p {
   .container .services-grid ul {
     border: 2px solid black;
     padding-right: 0;
+    margin-bottom: 30px;
   }
 }
 .container .services-grid ul li {
@@ -300,6 +307,7 @@ p {
 .container #about {
   margin-top: 20px;
   border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .container #about h3 {
   text-align: center;
@@ -307,14 +315,30 @@ p {
   font-weight: bold;
   margin: 40px 0 40px 0;
 }
+@media (max-width: 500px) {
+  .container #about h3 {
+    margin-bottom: 0px;
+  }
+}
 .container #about p {
   font-size: 1.8rem;
   padding: 0 10%;
+  margin-bottom: 40px;
+}
+@media (max-width: 500px) {
+  .container #about p {
+    padding: 5%;
+  }
 }
 .container .white-plant {
   width: 100%;
   height: 600px;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+@media (max-width: 500px) {
+  .container .white-plant {
+    height: 300px;
+  }
 }
 .container #contact h3 {
   text-align: center;
@@ -322,11 +346,21 @@ p {
   font-weight: bold;
   margin: 50px 0 20px 0;
 }
+@media (max-width: 500px) {
+  .container #contact h3 {
+    font-size: 2.5rem;
+  }
+}
 .container #contact address {
   text-align: center;
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 1.5;
+}
+@media (max-width: 500px) {
+  .container #contact address {
+    font-size: 1.6rem;
+  }
 }
 .ny-img {
   display: flex;
