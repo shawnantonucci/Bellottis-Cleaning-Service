@@ -311,6 +311,18 @@ p {
   font-size: 1.8rem;
   padding: 0 10%;
 }
+.container #contact h3 {
+  text-align: center;
+  text-decoration-line: underline;
+  font-weight: bold;
+  margin: 50px 0 20px 0;
+}
+.container #contact address {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
 .ny-img {
   display: flex;
   width: 100%;
