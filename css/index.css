@@ -184,7 +184,6 @@ p {
 .container .bg-main {
   margin-top: 40px;
   background-color: #e7e5e5;
-  border: 2px solid black;
 }
 .container .services {
   display: flex;
@@ -194,6 +193,7 @@ p {
   width: 100%;
 }
 .container .services h2 {
+  margin-right: 2%;
   font-size: 4rem;
   font-weight: bold;
 }
@@ -215,7 +215,7 @@ p {
   margin: 20px;
 }
 .container .services-grid img {
-  border: 2px solid black;
+  border: 3px solid black;
   width: 100%;
   height: auto;
 }
@@ -228,11 +228,13 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-right: 5%;
 }
 .container .services-grid ul li {
   margin: 1%;
   font-size: 1.8rem;
   text-decoration-line: underline;
+  line-height: 1.5;
 }
 footer {
   width: 100%;
